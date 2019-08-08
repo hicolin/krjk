@@ -1,0 +1,20 @@
+[2018-04-20 01:19:01][debug] begin notify
+[2018-04-20 01:19:01][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2018-04-20 01:19:11][debug] begin notify
+[2018-04-20 01:19:11][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2018-04-20 01:19:27][debug] begin notify
+[2018-04-20 01:19:27][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2018-04-20 01:19:59][debug] begin notify
+[2018-04-20 01:20:00][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2018-04-20 01:23:01][debug] begin notify
+[2018-04-20 01:23:01][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2018-04-20 01:53:03][debug] begin notify
+[2018-04-20 01:53:03][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2018-04-20 02:23:07][debug] begin notify
+[2018-04-20 02:23:07][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2018-04-20 02:53:09][debug] begin notify
+[2018-04-20 02:53:09][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2018-04-20 03:23:11][debug] begin notify
+[2018-04-20 03:23:12][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2018-04-20 04:23:14][debug] begin notify
+[2018-04-20 04:23:14][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}

@@ -1,0 +1,17 @@
+.form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.form-group {
+    clear: both;
+}
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+}
+.control-label{
+    text-align: right;
+    padding-top: 7px;
+}
+.clear{width: 100%;height: 15px;clear: both}
+#birth_type{width: 10%}

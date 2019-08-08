@@ -1,0 +1,479 @@
+@CHARSET "UTF-8";
+/* 后台首页隐藏功能菜单	.ncsc-path */
+.tabmenu, .tabmenu_hr {
+	display: none;
+}
+
+.ns-main {
+	background: transparent;
+}
+
+.main {
+	margin: 0;
+}
+
+.home {
+	overflow: hidden;
+	color: #999;
+	margin-bottom: 20px;
+}
+
+.home article {
+	float: left;
+}
+
+.home article:FIRST-CHILD {
+	width: 40%;
+}
+
+.home article:LAST-CHILD {
+	width: 60%;
+}
+
+.home-shop, .home-info {
+	float: left;
+}
+
+.home-shop {
+	padding: 20px 30px 0px 40px;
+}
+
+.home-shop span {
+	margin-top: 5px;
+	display: block;
+	color: #0578c4;
+}
+
+.home-info {
+	width: 50%;
+}
+
+.home-info p {
+	margin: 8px 0;
+}
+
+.home-info p:FIRST-CHILD {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.home-info p:FIRST-CHILD span {
+	color: #333;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.home-info p:NTH-CHILD(2) span {
+	color: #666;
+}
+
+.last-login-time {
+	padding-top: 47px;
+}
+
+.level {
+	float: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.goods-prompt, .merchants-help, .sales, .sales-ranking, .charts,
+	.system-config {
+	border: 1px solid #e3e3e3;
+	width: 49%;
+	float: left;
+	height: 258px;
+	background: #ffffff;
+	margin: 0 0 15px 0;
+}
+
+.goods-prompt, .charts {
+	width: 50%;
+}
+
+.system-config {
+	width: 100%;
+}
+
+.goods-prompt {
+	height: inherit;
+}
+
+.sales, .merchants-help, .sales-ranking {
+	width: 50%;
+	float: right;
+}
+
+.merchants-help {
+	height: inherit;
+}
+
+.goods-prompt h3, .merchants-help h3, .sales h3, .sales-ranking h3,
+	.charts h3, .system-config h3 {
+	color: #333;
+	background: #f7f7f7;
+	padding-left: 10px;
+	margin: 0;
+	font-size: 16px;
+	font-weight: normal;
+	border-bottom: 1px solid #e3e3e3;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.goods-prompt h3 span, .sales h3 span, .sales-ranking h3 span,
+	.merchants-help h3 span, .system-config h3 span {
+	padding-left: 10px;
+	font-size: 14px;
+	color: #999;
+	font-weight: normal;
+}
+
+.system-config {
+	height: inherit;
+}
+
+.system-config h3 i {
+	padding-right: 3px;
+}
+
+.system-config table {
+	width: 98%;
+	margin: 20px auto;
+	border: 1px solid #e5e5e5;
+}
+
+.system-config table td {
+	border-bottom: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.system-config table td:NTH-CHILD(odd) {
+	background: #f7f7f7;
+	text-align: right;
+}
+
+.subtitle {
+	padding: 15px 0;
+	clear: both;
+}
+
+.subtitle img {
+	padding-left: 15px;
+}
+
+.subtitle label {
+	font-weight: normal;
+	display: inline;
+	padding-left: 5px;
+	color: #333333;
+}
+
+.goods-state {
+	overflow: hidden;
+	text-align: center;
+}
+
+.goods-state.a-line {
+	/* 	padding: 46px 0; */
+	padding: 0 0 10px;
+}
+
+.goods-state ul, .merchants-use ul {
+	margin: 0;
+	overflow: hidden;
+}
+
+.goods-state ul li {
+	float: left;
+	width: 25%;
+	margin-top: 15px;
+	color: #999999;
+	cursor: pointer;
+}
+
+.goods-state.order ul li {
+	width: 14%;
+}
+
+.goods-state.a-line ul li {
+	margin: 0;
+}
+
+.goods-state ul li h4 {
+	font-size: 26px;
+	font-weight: normal;
+	color: #333333;
+	overflow: hidden;
+	padding: 0 10px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.merchants-use {
+	/* 	padding: 56px 0; */
+	padding: 22px 0;
+	overflow: hidden;
+}
+
+.merchants-use ul li {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+
+.merchants-use ul li span {
+	display: block;
+	color: #0072D2;
+	margin-top: 10px;
+}
+
+.sales, .sales-ranking {
+/* 	border-right: 0; */
+}
+
+.sales table, .sales-ranking table {
+	width: 100%;
+	margin-top: 20px; 
+}
+
+.sales-ranking table{
+	width: 100%;
+	/*text-align: center;*/
+	margin-top: 20px; 
+}
+.sales table {
+	margin-top: 0;
+}
+
+.sales-ranking table tr td {
+	border-bottom: 1px solid #e3e3e3;
+	padding: 15px;
+}
+.sales-ranking table tr td a{
+	color:#333333;
+}
+.sales table tr td {
+	padding: 10px;
+}
+
+.sales table tr td strong {
+	color: #333333;
+	font-size: 18px;
+	font-weight: normal;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.sales table tr td span {
+	display: block;
+	margin-top: 10px;
+	color: #999999;
+}
+
+.sales-ranking table tr td span {
+	/* 	background: #ccc; */
+	/* 	border-radius: 2px; */
+	/* 	border: 1px solid #e3e3e3; */
+	/* 	padding: 5px; */
+	/* 	color: #fff; */
+	/* 	box-shadow: 0 6px 10px #e3e3e3; */
+	
+}
+
+.sales-ranking {
+	height: 450px;
+}
+
+.promote-img, .promote-h5 {
+	float: left;
+}
+
+.promote-img {
+	padding: 0 10px;
+}
+
+.promote-h5 {
+	color: #fff;
+	width: 70%;
+	font-size: 20px;
+}
+
+.promote-h5 span {
+	color: #FFFF00;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.promote-p {
+	color: #fff;
+	padding: 10px;
+	text-align: left;
+	font-size: 12px;
+}
+
+.snapup {
+	background: #FF8C8C;
+}
+
+.time-limit {
+	background: #33B5CC;
+}
+
+.full_present {
+	background: #FF984C;
+}
+
+.preferential-suit {
+	background: #33CDA6;
+}
+
+.black {
+	color: #666 !important;
+}
+
+.recommended_booth {
+	background: #EDC230;
+}
+
+.kims_volume {
+	background: #7ACE52;
+}
+
+.frist {
+	color: #F44336;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+.second {
+	color: #FF9800;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.third {
+	color: #03A9F4;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.nother {
+	background: #333;
+}
+
+.charts-title {
+	font-family: "Arial", "Microsoft YaHei", "黑体", "宋体",
+		sans-serif !important;
+	font-size: 14px;
+	color: #FF984C;
+	margin-right: 10px;
+}
+
+.charts-title:hover {
+	cursor: pointer;
+}
+
+.charts-title-ordernum {
+	color: #999;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.charts-title-ordernum i {
+	font-style: normal;
+	color: #10bbee;
+	font-size: 16px;
+	vertical-align: middle;
+}
+
+.charts {
+	height: 264.7px;
+}
+
+#orderCharts, #focusCharts {
+	height: 210px;
+}
+
+.charts h3 span {
+	float: right;
+	margin-right: 20px;
+	font-size: 14px;
+}
+
+.charts h3 span i {
+	width: 12px;
+	display: inline-block;
+	height: 12px;
+	margin-right: 5px;
+	vertical-align: middle;
+	background: #2E7ED9;
+}
+
+/*顶部统计*/
+.statistical {
+	overflow: hidden;
+}
+
+.statistical ul li {
+	float: left;
+	width: 12.4%;
+	margin: 0 24.5px 20px 0;
+	color: #ffffff;
+	padding: 10px 0;
+}
+
+.statistical ul li:LAST-CHILD {
+	margin-right: 0;
+}
+
+.statistical ul li header {
+	text-indent: 10px;
+}
+
+.statistical ul li p {
+	margin: 0;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.order-amount-statistics {
+	background: #F96969;
+}
+
+.focus-number-statistics {
+	background: #03A9F4;
+}
+
+.goods-release-statistics {
+	background: #FF9800;
+}
+
+.order-total-statistics {
+	background: #33CDA6;
+}
+
+.month-sales-statistics {
+	background: #33B5CC;
+}
+
+.completed-transaction-statistics {
+	background: #4CAF50;
+}
+
+@media ( min-width : 0px) and (max-width: 1870px) {
+	.statistical ul li {
+		width: 30%;
+	}
+}

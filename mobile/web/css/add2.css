@@ -1,0 +1,120 @@
+@charset "UTF-8";
+.ysb_con{}
+.ysb_con li h2 em{color: #333;margin: 0 4px;}
+.myt_zst{position: absolute;top: 15px;right: 15px;}
+.myt_zst i{font-size: 25px;color: #fff;vertical-align: middle;margin-top: -3px;}
+.myt_zst span{font-size: 14px;color: #fff;}
+
+/*走势图*/
+.chart_con{padding: 3%;}
+.chart_con_top{line-height: 30px;}
+.chart_con_top span{font-size: 14px;color: #888;}
+.chart_con_top select{font-size: 14px;color: #888;width: 45%;height: 25px;border: 1px solid #ccc;border-radius: 5px;}
+.chart_con_top button{font-size: 14px;color: #fff;width: 25%;height: 25px;border-radius: 5px;background: #14bc88;border: none;}
+.chart_con_con{}
+.chart_con_con h1{line-height: 30px;font-size: 14px;color: #888;}
+.chart_con_con h1 span{color: #fe8800;}
+.chart_con_con img{width: 100%;}
+
+/*充值*/
+.recharge_top{background: #fff;padding: 0px 10px;}
+.recharge_top h1{border-bottom: 1px solid #eee;line-height: 45px;}
+.recharge_top h1 span{font-size: 14px;color: #999;}
+.recharge_top input{width: 58%;height: 25px;padding-left: 2%;margin-left: 2%;border: none;}
+.recharge_top input:focus{border-bottom: 1px solid #14bc88;}
+
+.recharge_fail{padding: 0 4%;}
+.recharge_fail h1{line-height: 100px;text-align: center;}
+.recharge_fail h1 i{font-size: 40px;color: #e80139;vertical-align: middle;margin-top: -3px;}
+.recharge_fail h1 i.icon-chenggong1{color: #14bc88;}
+.recharge_fail h1 span{font-size: 24px;color: #666;}
+.zrm_btn button a{display: block;color: #fff;font-size: 14px;}
+
+.rec_btn{margin: 15px 0;}
+.rec_btn button{width: 40%;height: 30px;border: 1px solid #14bc88;border-radius: 5px;}
+.rec_btn button.back_index{background: #fff;}
+.rec_btn button.back_index a{color: #14bc88;font-size: 14px;}
+.rec_btn button.goon_rec{background: #14bc88;}
+.rec_btn button.goon_rec a{color: #fff;font-size: 14px;}
+
+
+/*提现*/
+.dep_top{text-align: center;padding: 20px 0;}
+.dep_top h1{font-size: 24px;color: #14bc88;line-height: 35px;}
+.dep_top h2{font-size: 12px;color: #aaa;line-height: 20px;}
+
+.aq_li li{}
+.aq_li li i.cardNum{font-size: 14px;color: #999;}
+.aq_li li input.dep_num{width: 60%;}
+.aq_li li input.dep_psd{width: 50%;}
+.aq_li li a.mima{font-size: 12px;color: #14bc88;border: none;padding: 0;}
+
+.dep_con{padding: 30px;}
+.dep_top2{}
+.dep_top2 li{float: left;width: 50%;}
+.dep_top2 li h1{font-size: 24px;color: #14bc88;line-height: 35px;}
+.dep_top2 li h2{font-size: 12px;color: #aaa;line-height: 20px;}
+.dep_nav{text-align: center;margin-top: 60px;}
+.dep_nav img{width: 120px;}
+.dep_nav p{font-size: 14px;color: #888;line-height: 30px;}
+.dep_nav button{width: 200px;height: 35px;border: 1px solid #14bc88;border-radius: 5px;background: none;font-size: 14px;color: #14bc88;margin-top: 30px;}
+
+
+.head_fixed{height:44px; width:100%; background: #14bc88; position: relative;}
+.head_fixed_p{ height:44px; line-height:44px; width:100%; text-align: center;color:#fff; font-size:16px; letter-spacing: 3px; position:relative;}
+.head_fixed_p a{ position:absolute; color:#ffffff;font-size: 14px; letter-spacing: 0;}
+.head_fixed_p a.back{left:10px;}
+.head_fixed_p a.new_wind{right:10px;}
+
+
+/*积分商城*/
+.buy_main{margin-top: 1px;}
+.slideBox2{ position:relative; overflow:hidden; margin:0px auto;  max-width:660px;height: 275px;}
+.slideBox2 .hd{ position:absolute; height:28px; line-height:28px; bottom:0; left:50%; margin-left:-40px; z-index:1; }
+.slideBox2 .hd li{ display:inline-block; width:8px; height:8px; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%; background:#c8c8c8; text-indent:-9999px; overflow:hidden; margin:0 6px;}
+.slideBox2 .hd li.on{ background:#fe8800;}
+.slideBox2 .bd{ position:relative; z-index:0; }
+.slideBox2.bd li{ position:relative; text-align:center;}
+.slideBox2 .bd li img{ background:url(../images/loading.gif) center center no-repeat;  vertical-align:top; width:100%;}
+
+.jifen_nav{padding: 10px 15px;background: #fff;}
+.jifen_nav h1{line-height: 25px;font-size: 16px;color: #333;}
+.jifen_nav h2{line-height: 25px;}
+.jifen_nav h2 span{font-size: 12px;color: #999;}
+.jifen_nav h2 em{font-size: 14px;color: #fe8800;}
+.jifen_nav h2 em i{font-size: 16px;color: #fe8800;}
+
+.jifen_nav h3 span{font-size: 12px;color: #999;}
+.jifen_nav h3 em{font-size: 12px;color: #fe8800;}
+
+.jifen_nav2{line-height: 30px;text-align: center;}
+.jifen_nav2 p{font-size: 12px;color: #999;}
+.jifen_nav2 p i{font-size: 16px;color: #999;vertical-align: middle;margin-top: -3px;margin-right: 5px;}
+
+.jifen_con{background: #fff;height: 300px;}
+
+.jifen_foot{height: 45px;border-top: 1px solid #ccc;background: #f9f9f9;position: fixed;bottom: 0;left: 0;width: 100%;}
+.jfoot_left{width: 33%;}
+.jfoot_left li{width: 50%;float: left;text-align: center;padding: 5px 0;}
+.jfoot_left li a{display: block;}
+.jfoot_left li i{display: block;font-size: 20px;}
+
+.jfoot_right{width: 67%;background: #fe8800;line-height: 45px;text-align: center;}
+.jfoot_right a{font-size: 14px;color: #fff;display: block;}
+
+.ysb_con ul{}
+.ysb_con li{background: #fff;margin-top: 5px;}
+
+.jiazai_more,.jiazai_nomore{ float:left; width:100%; text-align:center; height:30px; line-height:30px;background: none;}
+.jiazai_more a{ width:auto !important; float: none !important;  display:inline-block;  color:#aaa;}
+.jiazai_nomore{ display:none;}
+.jiazai_nomore a{ padding-left:20px; display:inline-block;  color:#aaa;}
+
+
+/*注册*/
+.zc_foot{position: fixed;bottom: 20px;left: 0;width: 100%;}
+.zc_foot h1{font-size: 12px;color: #999;font-weight: bold;text-align: center;}
+.zc_foot h2{text-align: center;padding: 15px 0;}
+.zc_foot h2 img{width: 40px;}
+
+

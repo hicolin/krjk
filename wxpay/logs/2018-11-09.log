@@ -1,0 +1,16 @@
+[2018-11-09 11:40:50][debug] begin notify
+[2018-11-09 11:40:51][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2018-11-09 11:40:51][debug] begin notify
+[2018-11-09 11:40:51][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2018-11-09 12:40:28][debug] begin notify
+[2018-11-09 12:40:28][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2018-11-09 12:40:28][debug] begin notify
+[2018-11-09 12:40:29][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2018-11-09 13:06:47][debug] begin notify
+[2018-11-09 13:06:47][debug] call back:{"appid":"wxea8fb1395e28d369","attach":"test","bank_type":"CCB_DEBIT","cash_fee":"9800","fee_type":"CNY","is_subscribe":"N","mch_id":"1516346191","nonce_str":"hbpmgih7w00h4fbt2ag9wxwi8q3k3z7w","openid":"oSHKF0qO-gCP3rMz8QNcqChcymnI","out_trade_no":"2018110913063758285","result_code":"SUCCESS","return_code":"SUCCESS","sign":"398294D2A680698B3457DD2A085F9BFA","time_end":"20181109130646","total_fee":"9800","trade_type":"JSAPI","transaction_id":"4200000220201811096995583373"}
+[2018-11-09 13:06:47][debug] query:{"appid":"wxea8fb1395e28d369","attach":"test","bank_type":"CCB_DEBIT","cash_fee":"9800","fee_type":"CNY","is_subscribe":"N","mch_id":"1516346191","nonce_str":"ri4fDxMpFt7Mq5JQ","openid":"oSHKF0qO-gCP3rMz8QNcqChcymnI","out_trade_no":"2018110913063758285","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"F8EA1E4A38D05A1B9E0C02E539F4D569","time_end":"20181109130646","total_fee":"9800","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"JSAPI","transaction_id":"4200000220201811096995583373"}
+[2018-11-09 13:06:48][debug] query:{"appid":"wxea8fb1395e28d369","attach":"test","bank_type":"CCB_DEBIT","cash_fee":"9800","fee_type":"CNY","is_subscribe":"N","mch_id":"1516346191","nonce_str":"upYpVOi5vQWLUtO9","openid":"oSHKF0qO-gCP3rMz8QNcqChcymnI","out_trade_no":"2018110913063758285","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"6E97F013A5410B6160BF78BDCDDD4F32","time_end":"20181109130646","total_fee":"9800","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"JSAPI","transaction_id":"4200000220201811096995583373"}
+[2018-11-09 13:38:52][debug] begin notify
+[2018-11-09 13:38:53][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2018-11-09 13:38:53][debug] begin notify
+[2018-11-09 13:38:53][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}

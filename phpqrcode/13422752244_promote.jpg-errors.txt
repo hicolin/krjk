@@ -1,0 +1,1 @@
+2019-06-11 22:53:21: imagepng(./uploads/img/qrcode/13422752244_promote.jpg): failed to open stream: No such file or directory2019-06-11 22:53:24: imagepng(./uploads/img/qrcode/13422752244_promote.jpg): failed to open stream: No such file or directory

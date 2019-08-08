@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- release v4.1.8, copyright 2014 - 2015 Kartik Visweswaran -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Krajee JQuery Plugins - &copy; Kartik</title>
+        <link href="bootstrap-3.3.4-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fileinput.css" media="all" rel="stylesheet" type="text/css" />
+        <script src="../assets/js/jquery-2.0.3.min.js"></script>
+        <script src="js/fileinput.js" type="text/javascript"></script>
+        <script src="js/fileinput_locale_zh.js" type="text/javascript"></script>
+        <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="container kv-main">
+            <br>
+            <form enctype="multipart/form-data">
+                <div class="form-group">
+                    <input id="file-1" type="file" multiple class="file" data-overwrite-initial="false" data-min-file-count="1">
+                </div>
+            </form>
+        </div>
+
+    </body>
+	<script>
+    $("#file-1").fileinput({
+    	uploadUrl: "/portal/cldjManager.dh?key=updateLoadFile", // server upload action
+        uploadAsync: true,//同步异步，如果同步上传，须保证后台程序可同步处理文件上传
+        //maxFileCount: 1,//最大上传数量
+        minFileCount: 1,//最小上传数量
+        //allowedFileExtensions : ['jpg', 'png','gif'],//上传格式
+        overwriteInitial: false,
+        //maxFileSize: 1000,//文件大小限制
+        /* previewThumbTags: {
+	        '{TAG_VALUE}': '斯蒂芬',        // no value
+	        '{TAG_CSS_NEW}': '斯蒂芬斯蒂芬',      // new thumbnail input
+	        '{TAG_CSS_INIT}': 'hide'  // hide the initial input
+	    }, */
+        /* initialPreview: [//初始化预览窗口
+	        "<img src='http://192.168.0.21:8089/cldj/download/12.jpg'>",
+	        "<img src='http://lorempixel.com/200/150/people/2'>",
+	    ],
+	    initialPreviewConfig: [
+             {caption: "12.jpg", width: "120px"},
+             {caption: "People-2.jpg", width: "120px"}, 
+         ], */
+        showUpload: true,//是否显示上传按钮
+        showRemove: true,//是否显示删除按钮
+        showCaption: true,//是否显示输入框
+        showPreview:true,//是否显示预览窗口
+        showCancel:true,
+        previewFileType: "image",//文件类型限制
+    	browseClass: "btn btn-success",//选择按钮样式
+    	browseLabel: "选择图片",//选择按钮文字
+    	browseIcon: '<i class="glyphicon glyphicon-picture"></i>',
+    	removeClass: "btn btn-danger",
+    	removeLabel: "删除",
+    	removeIcon: '<i class="glyphicon glyphicon-trash"></i>',
+    	uploadClass: "btn btn-info",
+    	uploadLabel: "上传",
+    	uploadIcon: '<i class="glyphicon glyphicon-upload"></i>',
+        //allowedFileTypes: ['image', 'video', 'flash'],
+        slugCallback: function(filename) {//选择文件时，过滤文件名中的特殊字符
+            return filename.replace('(', '_').replace(']', '_');
+        },
+        uploadExtraData: function() {  // callback example
+            var out = {}, key, i = 0;
+            $('.kv-input:visible').each(function() {
+                $el = $(this);
+                key = $el.hasClass('kv-new') ? 'new_' + i : 'init_' + i;
+                out[key] = $el.val();
+                i++;
+            });
+            return out;
+        }
+	}).on("filebatchselected", function(event, files) {//选择文件时调用
+	    //$input.fileinput("upload");
+		alert("filebatchselected");
+	}).on("filebatchuploadsuccess", function(event, files) {
+	    alert("filebatchuploadsuccess");
+	}).on("filebatchuploaderror", function(event, files) {
+		alert("filebatchuploaderror");
+	}).on("filebatchpreupload", function(event, files) {
+		alert("filebatchpreupload");
+	}).on("filebatchuploadcomplete", function(event, extData) {
+		var datas = $("#file-1").fileinput("getOutData");
+	}).on("fileuploaded", function(event, outData) {
+		var filename = outData.response.filename;
+		alert(filename);
+	});
+    /*
+    $(".file").on('fileselect', function(event, n, l) {
+        alert('File Selected. Name: ' + l + ', Num: ' + n);
+    });
+    */
+	/* $("#file-3").fileinput({
+		showUpload: false,
+		showCaption: false,
+		browseClass: "btn btn-primary btn-lg",
+		fileType: "any",
+        previewFileIcon: "<i class='glyphicon glyphicon-king'></i>"
+	});
+	$("#file-4").fileinput({
+		uploadExtraData: {kvId: '10'}
+	});
+    $(".btn-warning").on('click', function() {
+        if ($('#file-4').attr('disabled')) {
+            $('#file-4').fileinput('enable');
+        } else {
+            $('#file-4').fileinput('disable');
+        }
+    });    
+    $(".btn-info").on('click', function() {
+        $('#file-4').fileinput('refresh', {previewClass:'bg-info'});
+    }); */
+    /*
+    $('#file-4').on('fileselectnone', function() {
+        alert('Huh! You selected no files.');
+    });
+    $('#file-4').on('filebrowse', function() {
+        alert('File browse clicked for #file-4');
+    });
+    */
+    $(document).ready(function() {
+        /* $("#test-upload").fileinput({
+            'showPreview' : false,
+            'allowedFileExtensions' : ['jpg', 'png','gif'],
+            'elErrorContainer': '#errorBlock'
+        }); */
+        /*
+        $("#test-upload").on('fileloaded', function(event, file, previewId, index) {
+            alert('i = ' + index + ', id = ' + previewId + ', file = ' + file.name);
+        });
+        */
+    });
+	</script>
+</html>
